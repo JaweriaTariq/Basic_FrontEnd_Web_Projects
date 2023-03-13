@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(img.png) no-repeat;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+.icon{
+    position: relative;
+    margin-top: 70px;
+    left: 48.5%;
+    height: 50px;
+    width: 50px;
+    font-size: 70px;
+}
+.login{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family:monospace ;
+}
+.customer{
+    width: 280px;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family:monospace ;
+}
+.customer h3{
+    float: left;
+    font-size: 20px;
+    left: 60%;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+.text{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.text input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.rm{
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    left: 50%;
+    text-align: left;
+}
+.rm h4{
+    float: left;
+    font-size: 12px;
+    
+}
+.fp{
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    left: 50%;
+    text-align: right;
+}
+
+.fp a{
+    text-decoration: none;
+    font-size: 12px;
+    color:white;
+    float:right;
+    text-align: right;
+}
+.btn{
+    width: 100%;
+    background: none;
+    background-color: rgb(39, 77, 148);
+    border: 2px;
+    color: rgba(255, 255, 255, 0.87);
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 18px 0;
+}
